@@ -1,0 +1,72 @@
+Maxent Results
+
+     Variabels Contribution
+1 dsv_priority      17.7014
+2    landcover      33.4197
+3         ndvi      27.6985
+4        slope       6.6985
+5    soil_clay       7.4284
+6      soil_ph       3.8971
+7    soil_sand       1.3223
+8   soil_water       0.5218
+9   wind_speed       1.3122
+
+
+============================================================ 
+
+Evaluation Statistics applied to Cross validation split:
+
+ 
+	 Correlation Coefficient      : 0.2338495  (sd 0.044949) 
+	 NULL Deviance                : 0.3273 (sd 0.047984)
+	 Fit Deviance                 : 0.73162 (sd 0.01842)
+	 Explained Deviance           : -0.40432 (sd 0.057569)
+	 Percent Deviance Explained   : -128.13 (sd 35.483)
+
+  Threshold Methods based on 
+	 Mean Threshold               : 0.366 (sd 0.0069921) 
+
+	 Confusion Matrix: 
+
+         observed
+predicted    1    0
+        1  243 2013
+        0   96 5987
+
+	 AUC                          :  0.79404  (sd 0.043686) 
+	 AUC-pr                       :  0.1498074  (sd 0.042453) 
+	 Percent Correctly Classified :  74.70921  (sd 1.654) 
+	 Sensitivity                  :  0.7183924  (sd 0.079182) 
+	 Specificity                  :  0.7484519  (sd 0.01802) 
+	 Kappa                        :  0.1259043  (sd 0.031845) 
+	 True Skill Statistic         :  0.4668443  (sd 0.07748) 
+
+
+============================================================ 
+
+Evaluation Statistics applied to Final evaluation split:
+
+ 
+	 Correlation Coefficient      : 0.2049742 
+	 NULL Deviance                : 0.32422
+	 Fit Deviance                 : 0.72084
+	 Explained Deviance           : -0.39661
+	 Percent Deviance Explained   : -122.33
+
+  Threshold Methods based on 
+	 Threshold                    :  0.31 
+
+	 Confusion Matrix: 
+
+         observed
+predicted    1    0
+        1   59  615
+        0   26 1385
+
+	 AUC                          :  0.754 
+	 AUC-pr                       :  0.1507546 
+	 Percent Correctly Classified :  69.25659 
+	 Sensitivity                  :  0.6941176 
+	 Specificity                  :  0.6925 
+	 Kappa                        :  0.08954756 
+	 True Skill Statistic         :  0.3866176 
